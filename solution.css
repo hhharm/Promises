@@ -1,0 +1,92 @@
+.ymaps {
+    position: absolute;
+    top: 99px;
+    left: 102px;
+    height: 500px;
+}
+.street {
+    z-index: 3;
+}
+.street:first-child {
+    transform: rotate(90deg);
+    top: 198px;
+    left: -192px;
+}
+.street:last-child {
+    transform: rotate(90deg);
+    top: 195px;
+    left: 292px;
+}
+
+.house-1 {
+    top: 3px;
+}
+
+.house-2 {
+    transform: rotate(90deg);
+    top: 101px;
+    left: 170px;
+}
+.house-3 {
+    transform: rotate(270deg);
+    top: 43px;
+    left: -90px;
+}
+.house-4 {
+    top: 223px;
+}
+.house-4 .entrance {
+    position: relative;
+    top: 36px;
+}
+
+.house-5 {
+    left: 296px;
+    top: 123px;
+}
+.lane {
+    top: -37px;
+    left: 391px;
+    border-left: 1px solid #dfd9d8;
+    border-bottom: 1px solid #dfd9d8;
+    border-bottom-left-radius: 38px;
+}
+
+.lane:before {
+    content: '';
+    position: relative;
+    top: 22px;
+    left: 7px;
+    width: 195px;
+    border-left: 1px solid #dfd9d8;
+    border-bottom: 1px solid #dfd9d8;
+    border-bottom-left-radius: 36px;
+    display: block;
+    height: 321px;
+}
+
+.entrance {
+    transform: rotate(66deg);
+}
+
+.marker {
+    border-radius: 50%;
+    color: transparent;
+    transform: rotate(40deg);
+}
+
+.marker:before {
+    content: 'Я';
+    position: relative;
+    color: red;
+    top: 3px;
+    left: 7px;
+}
+.marker:after {
+    content: 'Яндекс';
+    position: relative;
+    top: 19px;
+    left: -91px;
+    width: 195px;
+    color: black;
+}
